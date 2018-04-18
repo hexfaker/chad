@@ -25,6 +25,7 @@ repositories {
 
 
 dependencies {
+	compileOnly "org.springframework.boot:spring-boot-configuration-processor"
 	compile 'com.github.pengrad:java-telegram-bot-api:3.6.0'
 	compile('org.springframework.boot:spring-boot-starter-aop')
 	runtime('org.springframework.boot:spring-boot-devtools')
