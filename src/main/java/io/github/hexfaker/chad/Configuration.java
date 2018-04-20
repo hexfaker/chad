@@ -11,5 +11,5 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "auth")
 @Component
 public class Configuration {
-  String token = 
+  String token;
 }
